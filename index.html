@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS Battle Royale</title>
+    <link rel="stylesheet" href="/Assets/Stylesheets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+</head>
+
+<body class="blackbg">
+    <div class="container-fluid text-center d-flex format">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Choose your weapon</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Rock</h2>
+                <button type="button" class="button btn-light" onclick="play('Rock')">^</button>
+            </div>
+            <div class="col">
+                <h2>Paper</h2>
+                <button type="button" class="button btn-light" onclick="play('Paper')">^</button>
+            </div>
+            <div class="col">
+                <h2>Scissors</h2>
+                <button type="button" class="button btn-light" onclick="play('Scissors')">^</button>
+            </div>
+        </div>
+        <div class="row align-bottom">
+            <div class="col align-bottom">
+                <h1 class="align-bottom">Result</h1>
+                <h2 id="winner"></h2>
+            </div>
+        </div>
+    </div>
+    <script src="Assets/main.js"></script>
+</body>
+
+</html>

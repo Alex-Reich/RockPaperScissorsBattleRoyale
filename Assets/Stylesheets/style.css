@@ -1,0 +1,13 @@
+.blackbg {
+    background-color: black;
+    color: white;
+}
+body {
+    width: 100%;
+}
+.format {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
